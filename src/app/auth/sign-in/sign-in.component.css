@@ -1,0 +1,25 @@
+.sign-in {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign-in__heading {
+  text-align: center;
+}
+
+.sign-in__input {
+  width: 100%;
+}
+
+.sign-in__button {
+  margin-right: 20px;
+}
+
+.sign-in__error {
+  display: inline-block;
+}

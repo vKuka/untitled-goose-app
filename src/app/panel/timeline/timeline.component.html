@@ -1,0 +1,10 @@
+<div class="timeline" *ngFor="let photoList of photos | keyvalue">
+  <h4 class="mat-headline">{{photoList.key}}</h4>
+  <div class="timeline__photos-container">
+    <a class="timeline__photo-link" routerLink="/timeline/{{photo.id}}" *ngFor="let photo of photoList.value">
+      <img class="timeline__photo" src="{{photo.preview}}"  alt="">
+    </a>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
